@@ -34,7 +34,7 @@ or a more carefully crafted approach and prompt design.
 
 ## Contents of the repository
 
-/AI-DrivenEfficiency.pdf: The full thesis document detailing the approach, analysis, and conclusions on the feasibility of using current SOTA LLMs to optimize business processes.
+AI-DrivenEfficiency.pdf: The full thesis document detailing the approach, analysis, and conclusions on the feasibility of using current SOTA LLMs to optimize business processes.
 
 /processModels: This folder contains process models of the subprocesses used in our thesis experiments, available in both .drawio and .vsdx formats. Please note that .vsdx files may have slight formatting deviations, as .drawio export to .vsdx is currently in beta.
 
