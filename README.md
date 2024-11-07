@@ -1,3 +1,6 @@
+## 🚧 **Work in Progress**
+**There are currently still some changes being made to the thesis, but the remainder of the repo's contents will remain unchanged.**
+
 # AI-Driven Efficiency: Large Languages Models in Business Process Optimization
 
 Repository for my Master’s Thesis, completed at the Technical University of Vienna. This research explores the capabilities of current SOTA LLMs to streamline enterprise processes, using a best-practice evaluation within an Action Research framework.
