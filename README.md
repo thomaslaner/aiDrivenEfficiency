@@ -3,7 +3,7 @@
 
 # AI-Driven Efficiency: Large Languages Models in Business Process Optimization
 
-Repository for my Master’s Thesis, completed at the Technical University of Vienna. This research explores the capabilities of current SOTA LLMs to streamline enterprise processes, using a best-practice evaluation within an Action Research framework.
+Repository for my Master’s Thesis, completed at the Technical University of Vienna. This research investigates the capabilities of state-of-the-art (SOTA) large language models (LLMs) in optimizing and streamlining enterprise processes. A structured best-practice evaluation framework, incorporating compliance testing with error injection, is applied within an Action Research methodology to rigorously assess LLM performance and limitations.
 
 ## Abstract
 
@@ -16,24 +16,32 @@ objective of eliminating inefficiencies. As processes become increasingly comple
 the shortage of skilled workers persists, organizations are confronted with a widening
 resource gap that current tools are unable to resolve, as they are incapable of automating
 optimization.
+
 A promising solution to this issue is offered by novel machine learning models, the so-called
 Large Language Models (LLMs), which are capable of mimicking human decision-making
 processes by generating contextually relevant insights. Nevertheless, their capacity to
 automate BPO remains largely under-explored, representing a notable research gap. This
-work is therefore guided by the question: Can Large Language Models be leveraged to
-automate BPO, thereby overcoming the limitations of current automation methods?
-The study answers this question in five iterative cycles by leveraging an action research
-framework. Thereby, the initial two cycles are focused on evaluating the syntactic
-capabilities of LLMs in adhering to process modeling criteria. The subsequent cycles are
-then focused on evaluating their semantic ability to identify inefficiencies and implement
-process optimizations.
+work is therefore guided by the question: *To what extent do current state-of-the-art
+Large Language Models align with established standards when performing business process
+optimization tasks?*
+
+The study answers this question by placing enforced focus on the impact of context, task
+complexities, and the quality of the initial process through five iterative cycles within an
+action research framework. Thereby, the initial two cycles are focused on evaluating the
+syntactic capabilities of LLMs in adhering to process modeling criteria. The subsequent
+cycles are then focused on evaluating their semantic ability to identify inefficiencies and
+implement process optimizations.
+
 Our results indicate that, while current state-of-the-art LLMs are capable of automating
 certain aspects of BPO, they still require human supervision for complex workflows
 involving task interdependencies and intricate process flows. The strong influence of
-context and explicit guidance on model performance, along with the associated challenges
-of overfitting, demand careful management. This suggests that full automation will
-depend on further model advancements, deeper integration into organizational systems,
-or a more carefully crafted approach and prompt design.
+context on model performance, along with the associated challenges of overfitting, demand
+careful management. However, we also observed that a negative plateau occurs in relation
+to initial process quality, as beyond a certain threshold of degradation, further reductions
+in quality do not proportionally worsen model performance, enabling real-world usage
+even with suboptimal original processes. This suggests that full automation will depend
+on further model advancements, deeper integration into organizational systems, or a
+more carefully crafted approach and prompt design.
 
 ## Contents of the repository
 
