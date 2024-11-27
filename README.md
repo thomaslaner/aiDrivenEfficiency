@@ -1,47 +1,16 @@
-## 🚧 **Work in Progress**
-**There are currently still some changes being made to the thesis, but the remainder of the repo's contents will remain unchanged.**
-
 # AI-Driven Efficiency: Large Languages Models in Business Process Optimization
 
-Repository for my Master’s Thesis, completed at the Technical University of Vienna. This research investigates the capabilities of state-of-the-art (SOTA) large language models (LLMs) in optimizing and streamlining enterprise processes. A structured best-practice evaluation framework, incorporating compliance testing with error injection, is applied within an Action Research methodology to rigorously assess LLM performance and limitations.
+Repository for my Master’s Thesis, completed at the Technical University of Vienna. This research evaluates state-of-the-art (SOTA) large language models (LLMs) in automating Business Process Optimization (BPO) tasks. Using the custom-developed Action Research-Based Compliance Testing (ARCT) framework, combining compliance testing, structured experiments, and error injection, the study highlights LLM capabilities, limitations, and the impact of context in addressing complex workflows and process optimization challenges.
 
 ## Abstract
 
-The efficiency and adaptability of an organization are significantly influenced by its
-business processes, which directly determine its ability to align with evolving market
-demands and technological advancements. Business Process Management (BPM) has
-traditionally relied on human expertise, particularly in the context of Business Process
-Optimization (BPO), which involves the analysis and redesign of processes with the
-objective of eliminating inefficiencies. As processes become increasingly complex and
-the shortage of skilled workers persists, organizations are confronted with a widening
-resource gap that current tools are unable to resolve, as they are incapable of automating
-optimization.
+The efficiency and adaptability of an organization are significantly influenced by its business processes, which directly determine its ability to align with evolving market demands and technological advancements. Business Process Management (BPM) has traditionally relied on human expertise, particularly in the context of Business Process Optimization (BPO), which involves the analysis and redesign of processes with the objective of eliminating inefficiencies. As processes become increasingly complex and the shortage of skilled workers persists, organizations are confronted with a widening resource gap that current tools are unable to resolve, as they are incapable of automating optimization. 
 
-A promising solution to this issue is offered by novel machine learning models, the so-called
-Large Language Models (LLMs), which are capable of mimicking human decision-making
-processes by generating contextually relevant insights. Nevertheless, their capacity to
-automate BPO remains largely under-explored, representing a notable research gap. This
-work is therefore guided by the question: *To what extent do current state-of-the-art
-Large Language Models align with established standards when performing business process
-optimization tasks?*
+A promising solution to this issue is offered by novel machine learning models, the so-called Large Language Models (LLMs), which are capable of mimicking human decision-making processes by generating contextually relevant insights. Nevertheless, their capacity to automate BPO remains largely under-explored, representing a notable research gap. This work is therefore guided by the question: *To what extent do current state-of-the-art Large Language Models align with established standards when performing business process optimization tasks?*
 
-The study answers this question by placing enforced focus on the impact of context, task
-complexities, and the quality of the initial process through five iterative cycles within an
-action research framework. Thereby, the initial two cycles are focused on evaluating the
-syntactic capabilities of LLMs in adhering to process modeling criteria. The subsequent
-cycles are then focused on evaluating their semantic ability to identify inefficiencies and
-implement process optimizations.
+The study answers this question by placing enforced focus on the impact of context, task complexities, and the quality of the initial process through five iterative cycles. To achieve this, we leverage the novel Action Research-Based Compliance Testing (ARCT) framework, which combines action research, structured experiments, compliance testing, and error injection to systematically evaluate the capabilities of LLMs in domains where evaluation is inherently complex. 
 
-Our results indicate that, while current state-of-the-art LLMs are capable of automating
-certain aspects of BPO, they still require human supervision for complex workflows
-involving task interdependencies and intricate process flows. The strong influence of
-context on model performance, along with the associated challenges of overfitting, demand
-careful management. However, we also observed that a negative plateau occurs in relation
-to initial process quality, as beyond a certain threshold of degradation, further reductions
-in quality do not proportionally worsen model performance, enabling real-world usage
-even with suboptimal original processes. This suggests that full automation will depend
-on further model advancements, deeper integration into organizational systems, or a
-more carefully crafted approach and prompt design.
+Our results indicate that, while current state-of-the-art LLMs are capable of automating certain aspects of BPO, they still require human supervision for complex workflows involving task interdependencies and intricate process flows. The strong influence of context on model performance, along with the associated challenges of overfitting, demand careful management. However, we also observed that a negative plateau occurs in relation to initial process quality, as beyond a certain threshold of degradation, further reductions in quality do not proportionally worsen model performance, enabling real-world usage even with suboptimal original processes. This suggests that full automation will depend on further model advancements, deeper integration into organizational systems, or a more carefully crafted approach and prompt design.
 
 ## Contents of the repository
 
